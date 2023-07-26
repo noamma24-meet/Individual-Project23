@@ -1,0 +1,36 @@
+body{
+	text-align: center;
+    background-color:#e7c6ff ;
+}
+.hila{
+  background-color: #b5179e;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  // outline: 0;
+  text-align: center;
+  width: 20%;
+}
+.cursive{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color:#8d0801;
+}
+.time{
+	font-family: "Lucida Console", "Courier New", monospace;
+	color:red;
+
+}
+.desc{
+	color:#231942;
+}
+.inline{
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: top;
+
+}

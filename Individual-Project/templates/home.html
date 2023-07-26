@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/home.css" /> 
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+  <br>
+  <img src="https://i.pinimg.com/originals/61/b6/50/61b6503f955c0713627717425ba97ec6.gif" width=70%>
+  <br>
+  <br>
+  <br>
+  <h1 style="color:#4e148c;" class="cursive">see what your friends are eating today!</h2>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <img src="https://cdn.pixabay.com/photo/2019/12/24/04/49/divider-4715969_1280.png" width=30%>
+  <br>
+{% for i in posts %}
+<div>
+    <h1 class="cursive"> {{posts[i]['title']}} </h1>
+
+    <br>
+    <img src= "{{posts[i]['img']}}" width= 300px> </h2> 
+<div class="inline">
+    <br>
+    <h2 class="desc"> {{posts[i]['desc']}}</h4>
+    <h2 class="time"> {{posts[i]['time']}}</h4>
+    <h2 class="time"> {{posts[i]['date']}}</h4>
+</div>
+</div>
+<img src="https://cdn.pixabay.com/photo/2019/12/24/04/49/divider-4715969_1280.png" width=30%>
+{% endfor %}
+     <br>
+     <br>
+     <a href="/create"><button class="hila">create</button>
+     <br>
+     <br>
+     <a href="/profile"><button class="hila" href="/profile">profile</button></a>
+     <br>
+     <br>
+     <br>
+</body>
+</html>

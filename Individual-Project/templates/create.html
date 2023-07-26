@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/css/hello.css" />  
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+   <div class="container">
+      <div class="text">
+         share you meal!
+      </div>
+      <a id="ayoub" href="/home">Go to feed</a>
+      <form method='POST' action="/create">
+         <div class="form-row">
+            <div class="input-data">
+               <input name='title' type="text" required>
+               <div class="underline"></div>
+               <label for="">title</label>
+            </div>
+            <div class="input-data">
+               <input name='desc' type="text" required>
+               <div class="underline"></div>
+               <label for="">description</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input name='img' type="text" required>
+               <div class="underline"></div>
+               <label for="">image adress</label>
+            </div>
+            <div class="input-data">
+               <input name="time" type="text" required>
+               <div class="underline"></div>
+               <label for="">time (xx:xx)</label>
+            </div>
+         </div>
+         <div class="form-row">
+         <div class="input-data ">
+            <!-- <textarea rows="8" cols="80" required></textarea> -->
+            <br />
+             <input name="date" type="text" required>
+               <div class="underline"></div>
+               <label for="">date (like: 12.03.23)</label>
+            <br />
+            <div class="form-row submit-btn">
+               <div class="input-data">
+                  <div class="inner"></div>
+                  <input type="submit" value="submit">
+               </div>
+            </div>
+      </form>
+      </div>
+    </form> 
+   <br>
+   <br>
+</body>
+</html>
+
+ 
